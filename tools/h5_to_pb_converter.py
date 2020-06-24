@@ -5,7 +5,7 @@ import os
 # from keras.models import load_model
 from tensorflow.keras.models import load_model
 
-BASEDIR = '/home/shane/models/traffic'
+BASEDIR = '../models'
 os.chdir(BASEDIR)
 
 K.clear_session()
