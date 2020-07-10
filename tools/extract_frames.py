@@ -1,12 +1,11 @@
 import os
 import cv2
 import random
-from utils.basedir import BASEDIR
 import string
 from threading import Thread
 import time
 
-BASEDIR = os.path.join(BASEDIR, 'new_data')
+BASEDIR = '../new_data'
 extracted_dir = '{}/extracted'.format(BASEDIR)
 done_dir = '{}/done'.format(BASEDIR)
 os.chdir(BASEDIR)
